@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Backpack Organizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Backpack Organizer</h1>
+    <div class="container">
+      <div class="backpack" id="backpack">
+        <h2>Backpack</h2>
+        <div class="item-slot small" data-size="small">Capacity: 8</div>
+        <div class="item-slot medium" data-size="medium">Capacity: 4</div>
+        <div class="item-slot big" data-size="big">Capacity: 2</div>
+      </div>
+      <div class="inventory">
+        <h2>Inventory</h2>
+        <button class="item-button small-button" data-size="small">
+          Small Item
+        </button>
+        <button class="item-button medium-button" data-size="medium">
+          Medium Item
+        </button>
+        <button class="item-button big-button" data-size="big">Big Item</button>
+      </div>
+    </div>
+    <div class="action-log" id="actionLog"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
